@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Inter', sans-serif;
+  --color-charcoal: #1A1A1A;
+  --color-gold: #D4AF37;
+  --color-offwhite: #FDFBF7;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-offwhite);
+  color: var(--color-charcoal);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: var(--font-serif);
+}
+
+.text-gold {
+  color: var(--color-gold);
+}
+
+.bg-gold {
+  background-color: var(--color-gold);
+}
+
+.border-gold {
+  border-color: var(--color-gold);
+}
+
+.bg-charcoal {
+  background-color: var(--color-charcoal);
+}
+
+.text-charcoal {
+  color: var(--color-charcoal);
+}
+
+.bg-offwhite {
+  background-color: var(--color-offwhite);
+}
+
+/* Custom Scrollbar for Lenis feel setup if needed */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-offwhite);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-charcoal);
+  border-radius: 4px;
+}
